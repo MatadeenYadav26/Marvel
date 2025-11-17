@@ -1,0 +1,54 @@
+// @import "button";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body ,html {
+    height: 100%;
+    width: 100%;
+
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: px;
+    background-color: black;
+}
+section{
+    height: 100%;
+    flex-grow: 1;
+    background-color: red;
+}
+section:hover {
+    flex-grow: 2;
+    transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+section:nth-child(1){
+    background-image:url(https://i.pinimg.com/1200x/4d/e0/cb/4de0cbe9c7907784a3e6bd730ebf0426.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section:nth-child(2){
+    background-image:url(https://i.pinimg.com/1200x/e1/15/d0/e115d075afa2546f92e286ec033a011b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section:nth-child(3){
+    background-image:url(https://i.pinimg.com/1200x/43/e5/b7/43e5b70b31be62b22b8632a0869f1cdd.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section:nth-child(4){
+    background-image:url(https://i.pinimg.com/1200x/a4/98/35/a4983518c1faa1a137eb990c27f05c0e.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section:nth-child(5){
+    background-image:url(https://i.pinimg.com/736x/b9/af/9a/b9af9a8c04d40c83c21c453ead9bcc6b.jpg);
+    background-size: cover;
+    background-position: center;
+}
